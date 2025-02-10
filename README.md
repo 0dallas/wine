@@ -1,2 +1,50 @@
-# Wine quality prediction
-Modelling a Kaggle dataset of [red wine properties and quality ratings](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009). 
+# Wine Quality Prediction
+
+Este proyecto utiliza Machine Learning para predecir la calidad del vino a partir de sus características fisicoquímicas. Se ha implementado un modelo de regresión basado en Random Forest para estimar la calidad del vino en una escala del 1 al 10.
+
+## 📌 Características del Proyecto
+
+- Uso de **RandomForestRegressor** para modelar la calidad del vino.
+- Evaluación del rendimiento del modelo en conjunto de entrenamiento y prueba.
+- Generación de métricas y visualización de importancia de características y residuales.
+- Implementación en Python utilizando bibliotecas como **pandas, scikit-learn, seaborn y matplotlib**.
+
+## 📂 Estructura del Proyecto
+
+```
+📁 Wine Quality Prediction
+│-- 📄 wine_quality.csv  # Dataset de calidad del vino
+│-- 📄 main.py  # Código principal para entrenar y evaluar el modelo
+│-- 📄 metrics.txt  # Métricas de rendimiento del modelo
+│-- 📄 feature_importance.png  # Gráfico de importancia de características
+│-- 📄 residuals.png  # Gráfico de residuales
+│-- 📄 README.md  # Documentación del proyecto
+```
+
+## 📊 Dataset
+
+El dataset utilizado proviene de **wine_quality.csv**, que contiene información sobre las propiedades químicas del vino y su calidad. La variable objetivo es `quality`, una puntuación numérica.
+
+## 🔧 Instalación y Uso
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/wine-quality-prediction.git
+   ```
+2. Instala las dependencias necesarias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Ejecuta el script principal:
+   ```bash
+   python main.py
+   ```
+
+## 📈 Resultados
+
+El modelo genera dos gráficos clave:
+
+- **feature_importance.png**: Muestra las características más relevantes para la predicción.
+- **residuals.png**: Visualiza la relación entre los valores reales y los predichos.
+
+Además, los resultados del modelo se guardan en `metrics.txt` con el porcentaje de varianza explicada en los conjuntos de entrenamiento y prueba.
