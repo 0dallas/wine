@@ -29,7 +29,7 @@ El dataset utilizado proviene de **wine_quality.csv**, que contiene información
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/wine-quality-prediction.git
+   https://github.com/0dallas/wine.git
    ```
 2. Instala las dependencias necesarias:
    ```bash
