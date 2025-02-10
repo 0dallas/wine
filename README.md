@@ -14,7 +14,7 @@ Este proyecto utiliza Machine Learning para predecir la calidad del vino a parti
 ```
 📁 Wine Quality Prediction
 │-- 📄 wine_quality.csv  # Dataset de calidad del vino
-│-- 📄 main.py  # Código principal para entrenar y evaluar el modelo
+│-- 📄 train.py  # Código principal para entrenar y evaluar el modelo
 │-- 📄 metrics.txt  # Métricas de rendimiento del modelo
 │-- 📄 feature_importance.png  # Gráfico de importancia de características
 │-- 📄 residuals.png  # Gráfico de residuales
@@ -37,7 +37,7 @@ El dataset utilizado proviene de **wine_quality.csv**, que contiene información
    ```
 3. Ejecuta el script principal:
    ```bash
-   python main.py
+   python train.py
    ```
 
 ## 📈 Resultados
